@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+#open{
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background-color: crimson;
+    color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+#container-bg{
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left:0;
+    display: none;
+}
+#popup{
+    background-color: aliceblue;
+    width: 300px;
+    height: 155px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10% auto;
+    position: relative;
+    border-radius: 10px;
+}
+#close{
+    position: absolute;
+    right: 5px;
+    bottom: 115px;
+    cursor: pointer;
+}
